@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fotolangit"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="PROFIL SMKN 1 SAYUNG"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMK memiliki 5 kompetensi keahlian"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.Teknik Pengelasan dan Fabrikasi Logam"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="19sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Teknik Otomotif"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.Pengembangan Perangkat Lunak dan Gim"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Tata Busana"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.Kuliner"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMKN 1 SAYUNG berlokasi di JL.Semarang Demak,km 14,Loireng,Kecamatan sayung,Kabupaten Demak"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visi smkn 1 sayung: untuk mewujudkan sumber daya manusia yang religius,unggul,handal,profesional,dan mampu bersaing diera global"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Misi smkn 1 sayung: menjadikan sekolah unggul dengan menyelenggarakan pendidikan yang relevan dengan perkembangan ilmu pengetahuan dan teknologi"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

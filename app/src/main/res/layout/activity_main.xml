@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:src="@drawable/logo2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="PROFIL GURU"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SMKN 1 SAYUNG"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/buttonrequestguru"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#6E5FA6"
+        android:text="IDENTITAS GURU"
+        android:textColor="#ffff"
+        android:textSize="19sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/buttonrequestsekolah"
+        android:layout_width="252dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#6E5FA6"
+        android:text="PROFIL SMKN 1 SAYUNG"
+        android:textColor="#ffff"
+        android:textSize="19sp"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>
